@@ -36,7 +36,7 @@ const Home = () => {
               className="flex flex-col gap-5"
             >
               <p className="max-w-md font-normal text-gray-600 text-base">
-              Lag din unike og eksklusive skjorte med vårt splitter nye 3D-tilpasningsverktøy. <strong>SKETSJ den frem </strong>{" "} .
+              Lag din unike og eksklusive skjorte med Shilwan sin nye 3D-tilpasningsverktøy. <strong>SKETSJ den frem </strong>{" "} .
               </p>
 
               <CustomButton 
