@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Optional if you have additional styles
 
+
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -25,9 +26,7 @@ const Navbar = () => {
       {isDropdownOpen && (
         <div className="dropdown-menu absolute left-0 mt-2 w-48 bg-[#444] p-4 rounded-md shadow-lg animate-fade-in">
           <ul>
-            <li className="text-white p-2 hover:bg-[#555] rounded">
-              <a href="/Home" className="block w-full h-full">Hjem</a>
-            </li>
+            <li className="text-white p-2 hover:bg-[#555] rounded">Hjem</li>
           </ul>
         </div>
       )}
