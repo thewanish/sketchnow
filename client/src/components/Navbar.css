@@ -1,0 +1,47 @@
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #090202; /* Update this to a lighter grey */
+  color: white;
+  height: 4rem;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+}
+
+/* Navbar.css */
+
+/* Hamburger menu is visible at all screen sizes */
+nav .cursor-pointer {
+  display: block;
+  cursor: pointer;
+}
+
+/* Dropdown menu styles */
+nav .dropdown-menu {
+  left: 0; /* Align to the left edge of the navbar */
+  top: 100%; /* Position it just below the hamburger menu */
+  margin-top: 8px; /* Adjust this if you want more or less space */
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav li:hover {
+  background-color: #9d9292;
+}
